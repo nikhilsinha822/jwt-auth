@@ -59,7 +59,8 @@ app.use("/logout", require("./routes/logout"));
 
 //below routes are protected
 app.use(verifyJWT);
-app.use("/employee", require("./routes/api/employee"));
+app.use("/employees", require("./routes/api/employee"));
+app.use("/users", require("./routes/api/users"));
 
 // kind of middleware
 // const one = (req,res,next)=>{
