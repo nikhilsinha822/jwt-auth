@@ -7,7 +7,7 @@
     "start": "node server",
     "dev": "nodemon server.js"
   },
-  "author": "Dave Gray",
+  "author": "Nikhil Sinha",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",

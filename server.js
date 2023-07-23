@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const path = require("path");
-const PORT = process.env.PORT || 3500;
+const PORT = process.env.PORT || 3600;
 const { logger } = require("./middleware/logEvents");
 const errrorHandler = require("./middleware/errorHandler");
 const cors = require("cors");
